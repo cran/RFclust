@@ -64,10 +64,9 @@ Ankur Chakravarthy, PhD
 
 \examples{
 
-library(iCluster)
 library(RFclust)
 
-#Get GBM example data from the iCluster package
+#Get GBM example data from the iCluster package, repackaged to maintain CRAN compatibility
 data(gbm)
 
 #Transpose so columns are samples and features are rows
